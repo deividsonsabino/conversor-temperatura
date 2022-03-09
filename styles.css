@@ -1,0 +1,91 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: url("https://img.freepik.com/vetores-gratis/fundo-gradiente-abstrato-branco-simples_53876-99910.jpg?w=740");
+    background-size: cover;
+}
+
+p {
+    margin: 0
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.image-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #F5CB5C;
+    color: rgb(98, 93, 71);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.conversor {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.result-content {
+    display: flex;
+    align-items: center;
+    background-color: #F5CB5C;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.selects {
+    display: flex;
+    align-items: center;
+}
+
+input,
+select,
+button {
+    height: 40px;
+    margin: 5px
+}
+
+button {
+    border: none;
+    background: #F5CB5C;
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-image {
+    border-radius: 15%;
+    width: 50px;
+}

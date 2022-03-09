@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Conversor de temperatura</title>
+</head>
+
+<body onload="animation()">
+    <div class="container">
+        <div class="image-content">
+            <img class="calc" src="./images/Saly-12.png" width="600" />
+            <footer>
+                <div class="footer-card">
+                    <div>
+                        <img class="footer-image" src="https://github.com/deividsonsabino.png" />
+                    </div>
+                    <div>
+                        <p>Deividson Sabino</p>
+                        <p>Graduado em Sistemas de Informação</p>
+                        <p>Programador Frontend.</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="content">
+            <div>
+                <h1>Conversor de Temperatura </h1>
+                <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="logo" />
+                <h2>Temperatura</h2>
+                <p>
+                    A Temperatura é a propriedade de um sistema que implica as noções comuns de "quente" ou "frio".</p>
+                <p> Em geral a matéria com a temperatura maior é dita mais quente.</p>
+            </div>
+
+            <div class="conversor">
+                <div class="inputs">
+                    <input id="value" placeholder="valor" />
+                    <select id="temp">
+                        <option value="celcius">Celsius (C) para Fahrenheit (F)</option>
+                        <option value="fahrenheit">Fahrenheit (F) para Celsius (C)</option>
+                    </select>
+                    <button type="button" onClick="calculate()">Calcular</button>
+                </div>
+                <div class="result">
+                    <p><span id="span"></span></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./app.js">
+</script>
+
+</html>
